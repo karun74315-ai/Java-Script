@@ -57,6 +57,11 @@ console.log(fct()); //120
 
 globalVar = "global";
 function scope(){
-    var localVar = "local"; }
+    var localVar = "local"; 
+
+   {
+    blockVar = "block";
+   }
+}
 
     
