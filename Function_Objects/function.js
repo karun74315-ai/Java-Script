@@ -53,3 +53,10 @@ function fct(n){
 console.log(fct()); //120
 
 
+//scope
+
+globalVar = "global";
+function scope(){
+    var localVar = "local"; }
+
+    
