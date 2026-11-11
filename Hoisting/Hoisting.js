@@ -7,3 +7,6 @@ let b = 10;
     console.log("hello");  
 }   // hello
 
+console.log(a); 
+var a = 10; // undefined
+
