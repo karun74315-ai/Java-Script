@@ -10,3 +10,10 @@ let b = 10;
 console.log(a); 
 var a = 10; // undefined
 
+
+// TDZ
+
+console.log(c);
+
+// temporary dead zone
+let c = 10; // refrence error
